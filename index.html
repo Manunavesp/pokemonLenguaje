@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="./imgs/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+
+  <div class="jumbotron text-center ">
+    <div>
+      <img class="img-fluid" src="./imgs/title.png" style="max-width:18%">
+    </div>
+  </div>
+
+  <div class="container text-center">
+
+    <div class="row">
+
+      <div class="col-sm-4">
+        <br>
+        <div class="card">
+          <div class="card-body">
+            <div class="container">
+              <div id="evolBulbasaur">
+                <img class="img-fluid" src="imgs/01-bulbasaur.png">
+              </div>
+              <br>
+              <h4><span id="namePokemon1">Bulbasaur</span></h4>
+              <p>Level: <span id="bulbasaurLevel">1</span></p>
+              <button class="btn btn-white border-success text-success" onclick="selection(1)" type="button">Level up</button>
+              <button class="btn btn-white border-success text-success" onclick="selection(2)" type="button">Evolve</button>
+              <button class="btn btn-white border-success text-success" onclick="selection(3)" type="button">Sound</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <br>
+        <div class="card">
+          <div class="card-body">
+            <div class="container">
+              <div id="evolCharmander">
+                <img class="img-fluid" src="imgs/04-charmander.png">
+              </div>
+              <br>
+              <h4><span id="namePokemon2">Charmander</span></h4>
+              <p>Level: <span id="charmanderLevel">1</span></p>
+              <button class="btn btn-white border-danger text-danger" onclick="selection(4)" type="button">Level up</button>
+              <button class="btn btn-white border-danger text-danger" onclick="selection(5)" type="button">Evolve</button>
+              <button class="btn btn-white border-danger text-danger" onclick="selection(6)" type="button">Sound</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <br>
+        <div class="card">
+          <div class="card-body">
+            <div class="container">
+              <div id="evolSquirtle">
+                <img class="img-fluid" src="imgs/07-squirtle.png">
+              </div>
+              <br>
+              <h4><span id="namePokemon3">Squirtle</span></h4>
+              <p>Level: <span id="squirtleLevel">1</span></p>
+              <button class="btn btn-white border-primary text-primary" onclick="selection(7)" type="button">Level up</button>
+              <button class="btn btn-white border-primary text-primary" onclick="selection(8)" type="button">Evolve</button>
+              <button class="btn btn-white border-primary text-primary" onclick="selection(9)" type="button">Sound</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

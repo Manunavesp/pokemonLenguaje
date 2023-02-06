@@ -1,0 +1,11 @@
+.card-body {
+    background-image: url("../imgs/bg_pokemon.png");
+}
+
+body {
+    background-image: url("../imgs/bg_body.png");
+}
+
+.jumbotron {
+    background-image: url("../imgs/bg_pokemon.png");
+}
